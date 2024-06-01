@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_mode"
+    android:orientation="vertical"
+    android:padding="15sp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/dosis"
+        android:text="@string/vault"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/rect_4"
+        android:fontFamily="@font/dosis"
+        android:hint="@string/deposit_value"
+        android:padding="10sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/dark_gray" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/vault_button"
+        style="@style/Button.Transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rect_4"
+        android:fontFamily="@font/dosis"
+        android:padding="10sp"
+        android:text="@string/deposit"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</RelativeLayout>

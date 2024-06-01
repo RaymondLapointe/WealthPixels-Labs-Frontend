@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Onchain Investing</string>
+    <string name="welcome">Welcome</string>
+    <string name="sign_in_or_sign_up">Sign In or Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="portfolio">Portfolio</string>
+    <string name="vault">Vault</string>
+    <string name="transaction">Transaction</string>
+    <string name="profile">Profile</string>
+    <string name="deposit">Deposit</string>
+    <string name="deposit_value">Deposit Value (Ex. $100)</string>
+    <string name="logout">Logout</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_vault"
+        android:icon="@drawable/icon_money"
+        android:title="@string/vault"/>
+    <item
+        android:id="@+id/menu_transaction"
+        android:icon="@drawable/icon_bitcoin"
+        android:title="@string/transaction"/>
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/icon_account_circle"
+        android:title="@string/profile"/>
+</menu>
