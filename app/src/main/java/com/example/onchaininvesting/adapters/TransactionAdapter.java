@@ -87,13 +87,13 @@ public class TransactionAdapter extends RecyclerView.Adapter<TransactionAdapter.
                 String component2 = (String) event2.get("component");
                 String timestamp2 = convertTimeStamp(String.valueOf(event2.get("timestamp")));
 
-                holder.component1.setText("Component: " + component1);
-                holder.amount1.setText("Amount: " + amount1);
+                holder.component1.setText("Asset ID: " + component1);
+                holder.amount1.setText("Quantity: " + amount1);
                 holder.price1.setText("Price: " + price1);
-                holder.timestamp1.setText("Amount: " + timestamp1);
+                holder.timestamp1.setText("Timestamp: " + timestamp1);
 
-                holder.component2.setText("Component: " + component2);
-                holder.amount2.setText("Amount: " + amount2);
+                holder.component2.setText("Asset ID: " + component2);
+                holder.amount2.setText("Quantity: " + amount2);
                 holder.price2.setText("Price: " + price2);
                 holder.timestamp2.setText("Timestamp: " + timestamp2);
 
